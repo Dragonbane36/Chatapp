@@ -1,0 +1,132 @@
+.formContainer {
+  background-image: linear-gradient(to right bottom,#000000,#434343 );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainer .formWrapper {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.formContainer .formWrapper .logo {
+  color: #5d5b8d;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Roberto";
+}
+
+.formContainer .formWrapper .title {
+  color: #5d5b8d;
+  font-size: 12px;
+}
+
+.formContainer .formWrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formContainer .formWrapper form input {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  width: 250px;
+  border-bottom: 0.3px solid #7F7FD5;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(175, 175, 175);
+  transition:  color 1s;
+}
+
+.formContainer .formWrapper form input::placeholder {
+  color: rgb(175, 175, 175);
+
+}
+
+
+.formContainer .formWrapper form button {
+  background-color: #7b96ec;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: color 1s, opacity 1s;
+}
+
+.formContainer .formWrapper form button:hover {
+  color: #2e1e71;
+  opacity: 0.4;
+}
+
+.formContainer .formWrapper form label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #8da4f1;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.formContainer .formWrapper form label img {
+  width: 32px;
+}
+
+.formContainer .formWrapper p {
+  color: #5d5b8d;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.formContainer .formWrapper .Terms {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: none;
+    padding: none;
+    gap:0.5rem;
+  }
+
+  .formContainer .formWrapper .Terms input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:0.4;
+    width:auto;
+  }
+
+.formContainer .formWrapper .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width:100%;
+    flex-wrap: wrap;
+}
+.formContainer .formWrapper .social button{
+  display: flex;
+  height: 40px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  gap: 5px;
+  width:100%;
+  border-radius:9px;
+  background-color: #7b96ec;
+  color: white;
+  flex: 1;
+}
+
+.formContainer .formWrapper form span{
+  color: white;
+}
